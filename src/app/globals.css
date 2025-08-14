@@ -5,7 +5,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #0e0bff12;
     --foreground: #ededed;
   }
 }
@@ -38,5 +38,31 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+
+/* login_page */
+.container{
+  display: flex;
+
+}
+
+.bg_container{
+  width: 40%;
+  background: url("/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.main_container{
+  width: 60%;
+  direction: rtl;
+
+}
+@media (max-width: 600px) {
+  .container{
+    flex-direction: column;
+    align-items: center;
   }
 }

@@ -107,6 +107,13 @@ a.secondary {
   flex-shrink: 0;
 }
 
+/* login_btn */
+.loginBtn{
+  max-width: 600px;
+  margin: 25rem auto;
+  text-align: center;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
@@ -165,3 +172,5 @@ a.secondary {
     filter: invert();
   }
 }
+
+
